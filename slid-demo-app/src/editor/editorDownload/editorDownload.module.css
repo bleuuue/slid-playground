@@ -1,0 +1,57 @@
+.editor-download-container {
+  position: absolute;
+  width: 264px;
+  height: 248px;
+  background: #ffffff;
+  border-radius: 5px !important;
+  padding: 24px 27px;
+  margin: 0 0 2px 2px;
+  right: 1px;
+  transform: translate(0px, -216px);
+  insert: auto auto 0px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  cursor: auto;
+  z-index: 1000;
+}
+
+.editor-download-container-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
+.editor-download-container-item {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  border-top: 1px solid #f2f2f2;
+  cursor: pointer;
+  padding: 10px 5px;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+}
+
+.editor-download-container-item:hover {
+  text-decoration: none;
+  color: #212529;
+}
+
+.editor-download-container-item:first-of-type {
+  border-top: none;
+  margin-top: 10px;
+}
+.editor-download-container-item:hover {
+  background: #f2f2f280;
+}
+
+.editor-download-type-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}

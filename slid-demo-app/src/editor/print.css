@@ -1,0 +1,30 @@
+@media print {
+  .ce-block {
+    margin: 0 60px;
+    padding: 0.4em 0;
+  }
+
+  img {
+    width: 100% !important;
+  }
+
+  .cdx-simple-image {
+    object-fit: none !important;
+    border: none;
+    background: none;
+  }
+  /* .cdx-simple-image {
+    height: none !important;
+    object-fit: contain !important;
+    border: none !important;
+  }
+
+  .cdx-simple-image img {
+    max-width: none !important;
+    max-height: none !important;
+  }
+
+   
+}
+   */
+}

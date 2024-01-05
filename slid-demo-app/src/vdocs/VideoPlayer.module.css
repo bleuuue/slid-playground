@@ -1,0 +1,147 @@
+.video-container {
+  height: 100%;
+  position: relative;
+  background-color: #1f1f1f !important;
+}
+
+.video-view-controller-container {
+  position: fixed;
+  width: 87px;
+  height: 48px;
+  top: 10px;
+  left: 10px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: rgb(65, 65, 65);
+  z-index: 2147483647;
+  padding: 0.5rem !important;
+}
+
+.video-view-icon {
+  cursor: pointer;
+  width: 32px;
+  display: inline;
+  margin-right: 0.2rem !important;
+  margin: 0;
+  padding: 0;
+}
+
+.video-placeholder-container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.video-placeholder {
+  position: relative;
+  background-color: #1f1f1f !important;
+  width: 100%;
+  margin-bottom: 72px;
+  padding-top: 56.25%;
+}
+
+.video-player {
+  width: 100% !important;
+  height: 100% !important;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border: unset;
+  object-fit: contain;
+}
+
+.video-play-controller-container {
+  background-color: #3d3d3d !important;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px !important;
+}
+
+.setting-container {
+  position: absolute;
+  left: 0;
+}
+
+.setting-toggle {
+  color: #f3f3f3 !important;
+  display: flex;
+  align-items: center;
+}
+
+.setting-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.setting-popup {
+  width: 264px;
+  border-radius: 5px !important;
+  padding: 24px 27px !important;
+}
+
+.setting-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.setting-option {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.select {
+  width: 77px !important;
+}
+
+.skip-btn {
+  font-size: 17px;
+  font-weight: 500;
+  height: 44px;
+  background-color: #797979 !important;
+  border-radius: 5px !important;
+  color: #f3f3f3 !important;
+}
+
+.skip-backward {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.skip-forward {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.play-btn {
+  padding: 0px !important;
+  width: 44px;
+  height: 44px;
+  margin-left: 12px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.video-icon {
+  margin: 0;
+  width: 100%;
+}
+
+*:fullscreen, *:-webkit-full-screen, *:-moz-full-screen, *:-ms-fullscreen{
+  background-color: white;
+}

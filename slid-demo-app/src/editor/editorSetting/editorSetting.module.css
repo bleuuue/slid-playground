@@ -1,0 +1,35 @@
+.editor-setting-container {
+  position: absolute;
+  width: 284px;
+  height: 148px;
+  background: #ffffff;
+  border-radius: 5px !important;
+  padding: 24px 27px;
+  margin: 0 0 2px 2px;
+  transform: translate(1px, -112px);
+  insert: auto auto 0px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  cursor: auto;
+  z-index: 1000;
+}
+
+.editor-setting-container-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.editor-setting-container-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
+.editor-setting-select {
+  width: 77px !important;
+}

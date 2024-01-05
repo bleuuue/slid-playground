@@ -1,0 +1,49 @@
+.ce-paragraph {
+  line-height: 1.6em;
+  outline: none;
+  white-space: pre-wrap;
+}
+
+.ce-paragraph[data-placeholder]:empty::before {
+  content: attr(data-placeholder);
+  color: #707684;
+  font-weight: normal;
+  opacity: 0;
+}
+
+/** Show placeholder at the first paragraph if Editor is empty */
+.codex-editor--empty .ce-block:first-child .ce-paragraph[data-placeholder]:empty::before {
+  opacity: 1;
+}
+
+.codex-editor--toolbox-opened .ce-block:first-child .ce-paragraph[data-placeholder]:empty::before,
+.codex-editor--empty .ce-block:first-child .ce-paragraph[data-placeholder]:empty:focus::before {
+  opacity: 0;
+}
+
+.ce-paragraph p:first-of-type {
+  margin-top: 0;
+}
+
+.ce-paragraph p:last-of-type {
+  margin-bottom: 0;
+}
+
+.ce-block__content {
+  margin : 0!important;
+}
+
+.codex-editor .ce-toolbar__content .ce-toolbar__plus {
+  left: -34px;
+  top : -8px;
+}
+.ce-block {
+  align-self: center;
+}
+
+.codex-editor--narrow .codex-editor__redactor {
+  margin-right: 0;
+}
+.codex-editor--narrow .ce-toolbar__actions {
+  right: -30px !important;
+}

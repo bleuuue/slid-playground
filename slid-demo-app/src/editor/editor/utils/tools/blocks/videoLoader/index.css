@@ -1,0 +1,36 @@
+.loader-placeholder {
+  padding-top: 20% !important;
+  padding-bottom: 20% !important;
+  width: 100%;
+  max-height: 375px;
+  background: #292929;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loader-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.countdown-red {
+  color: #ff0000;
+}
+
+.loader-body {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.loader-body-additional-text {
+  color: #646464;
+}

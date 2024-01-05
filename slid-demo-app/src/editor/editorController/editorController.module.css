@@ -1,0 +1,193 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 72px;
+  box-shadow: 0 -5px 10px hsl(0deg 0% 70% / 20%);
+  justify-content: space-between;
+  background: #ffffff;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.video-document-editor-left-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background: #f7f7f9;
+  width: 136px;
+}
+
+.video-document-editor-center-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #ffffff;
+}
+
+.video-document-editor-right-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background: #f7f7f9;
+  width: 136px;
+}
+
+.video-document-editor-undo-redo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50% !important;
+}
+
+.video-document-editor-setting-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #dbdbdb;
+  height: 50% !important;
+  cursor: pointer;
+}
+
+.video-document-editor-save-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #dbdbdb;
+  height: 50% !important;
+  cursor: pointer;
+}
+
+.video-document-editor-download-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50% !important;
+  cursor: pointer;
+}
+
+.video-document-editor-control-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.video-document-editor-save-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.video-document-editor-setting-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.video-document-editor-text {
+  font-size: 13px;
+}
+
+.video-document-editor-download-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.video-document-editor-capture-btn {
+  width: 52px;
+  height: 52px;
+  margin: 0 6px;
+  background: #488cff !important;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+}
+
+.video-document-editor-capture-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.video-document-editor-capture-option-btn {
+  width: 44px;
+  height: 44px;
+  background-color: #f7f7f9 !important;
+  padding: 0 !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-document-editor-capture-option-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.video-document-editor-recording-icon {
+  width: 30px;
+  height: auto;
+}
+
+.video-document-editor-record-active {
+  width: 30px;
+  height: auto;
+  -webkit-filter: invert(28%) sepia(96%) saturate(6474%) hue-rotate(355deg) brightness(94%) contrast(121%);
+  filter: invert(28%) sepia(96%) saturate(6474%) hue-rotate(355deg) brightness(94%) contrast(121%);
+  animation: blink 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+
+.video-document-editor-setting-popup {
+  width: fit-content;
+  height: 50px;
+  min-width: unset;
+  z-index: 10;
+  left: 50% !important;
+  top: -60% !important;
+  transform: translate(-50%) !important;
+  display: flex;
+  align-items: center;
+  insert: auto auto 0px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  position: absolute;
+  border-radius: 5px !important;
+}
+
+.video-document-editor-setting-popup button {
+  width: 34px;
+  height: 34px;
+  margin: 0 10px;
+  padding: 0.5rem 0;
+}
+
+.video-document-editor-loading-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  animation: rotate_image 1s linear infinite;
+  transform-origin: 50% 50%;
+}
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
